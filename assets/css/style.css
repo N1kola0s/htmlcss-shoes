@@ -19,7 +19,6 @@ body{
 }
 
 nav {
-    /* background-color: blue; */
     height: 15vh;
     padding: 1rem;
 }
@@ -64,9 +63,37 @@ nav {
     transform: translate(-50%, -50%); 
 }
 
+
+.container>img {
+    width:100%;
+    margin: 2rem 0;
+
+}
+
+
 .item_description {
     text-align: center;
-    color:yellow;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding:2rem 2rem;
     
 }
+
+.green {
+    color:green;
+}
+
+.yellow {
+    color:yellow;
+}
+
+.shoes.second {
+    background-color:green;
+    height: 100vh;
+}
+
+.shoes.three {
+    background-color:yellow;
+    height: 100vh;
+}
+
+
