@@ -13,10 +13,34 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+
+
+/* Sections
+************ */
+
 .shoes.first {
     background-color:red;
     height: 100vh;
 }
+
+.shoes.second {
+    background-color:green;
+    height: 100vh;
+}
+
+.shoes.three {
+    background-color:yellow;
+    height: 100vh;
+}
+
+.green {
+    color:green;
+}
+
+.yellow {
+    color:yellow;
+}
+
 
 nav {
     height: 15vh;
@@ -78,22 +102,7 @@ nav {
     
 }
 
-.green {
-    color:green;
-}
 
-.yellow {
-    color:yellow;
-}
 
-.shoes.second {
-    background-color:green;
-    height: 100vh;
-}
-
-.shoes.three {
-    background-color:yellow;
-    height: 100vh;
-}
 
 
