@@ -8,3 +8,45 @@ COMMON RULES
     box-sizing: border-box;
 }
 
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.shoes.first {
+    background-color:red;
+    height: 100vh;
+}
+
+nav {
+    /* background-color: blue; */
+    height: 15vh;
+    padding: 1rem;
+}
+
+
+.btn {
+    margin: 1rem 1.5rem;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    float: right;
+    position:relative;
+    box-shadow: 0 4px 2px rgba(27, 27, 27, 0.315);
+    
+}
+
+.btn>a {
+
+    text-decoration: none;
+    color:black;
+    font-size:1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
